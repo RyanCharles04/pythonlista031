@@ -4,8 +4,9 @@ programa deve coletar as seguintes informações: Distância a percorrer na viag
 valor do consumo médio do automóvel, em quilômetros por litro.
 '''
 
-dis = float(input("Informe a distância a percorrer na viagem em quilômetros: "))
+dis = float(input("Informe a distância a percorrer na viagem, em quilômetros: "))
+consumo_medio = float(input("Qual é o valor do conumo médio do automóvel,em quilômetros por litros?"))
 
-cal = dis * 10/100
+cal = dis / consumo_medio
 
-print("O valor do consumo médio do autómovel, em quilômetros por litro é", cal)
+print(f"O seu carro vai consumir {cal:.0f} litros de combustível.")

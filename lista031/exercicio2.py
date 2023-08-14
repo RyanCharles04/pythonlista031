@@ -12,5 +12,5 @@ val4 = int(input("Informe o quarto valore inteiro: "))
 adi = val1 + val2 + val3 + val4
 mul = (val1 * val2) * (val3 * val4)
 
-print("A soma de seus valores é", adi)
-print("A multiplicação de seus valores é", mul)
+print(f"A soma de seus valores é: {adi}")
+print(f"A multiplicação de seus valores é: {mul}")
